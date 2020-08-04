@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Menu Item List Admin</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="C:\Users\Lenovo\Desktop\truyum-ui\js\script1.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="title" class="nav-menu">truYum</span>
+        <img src="images/fork-and-spoon-dark.jpg" alt="spoon and fork">
+        <nav>
+            <a href="C:\Users\Lenovo\Desktop\truyum-ui\menu-item-list-admin.html" class="nav-menu">Menu</a>
+        </nav>
+    </header>
+    <div id="content">
+        <h2>Edit Menu Item</h2>
+        <form action="edit-menu-item-status.html" onsubmit="return validate()">
+            <table cellspacing="10px">
+                <tr>
+                    <td colspan="4">
+                        <label for="">Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="name" id="menu-name">
+                    </td>
+                </tr>
+				<tr>
+				<td>
+					<label for="">Price(Rs.)</label>
+				</td>
+				<td>
+					<label for="">Active</label>
+				</td>
+				<td>
+					<label for="">Date of launch</label>
+				</td>
+				<td>
+					<label for="">Category</label>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					<input type="text" name="" id="" >
+				</td>
+				<td>
+					<input type="radio"  name="Active" id="Yes" value="Yes" ><label for="Yes">Yes</label>
+					<input type="radio" name="Active" id="No" value="No"><label for="No">No</label>
+				</td>
+				<td>
+					<input type="text" name="" id="" >
+				</td>
+				<td>
+					<select>
+					<option value="Main Course">Main Course</option>
+					<option value="Starters">Starters</option>
+					<option value="Deserts">Deserts</option>
+					<option value="Drinks">Drinks</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					<input type="checkbox" name="" id="" value="Free Delivery"  >Free Delivery
+				</td></tr>
+				<tr>
+				<td colspan:"1">
+					<button type="submit" id="save" value="save">Save</button>
+				</td></tr>
+            </table>
+		</form>
+    </div>
+    <footer>
+        Copyright @ 2019
+    </footer>
+</body>
+
+</html>
